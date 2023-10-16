@@ -51,7 +51,7 @@ const EditModal = ({ open, onClose, onSubmit, content, category }: EditModalProp
         >
             <Box className={classes.modalContainer}>
                 <Grid container alignItems="center" direction="column" spacing={4}>
-                    <Grid item md={12} sx={{ width: '100%' }}>
+                    <Grid item sx={{ width: '100%' }}>
                         <TextField
                             id="standard-basic"
                             label="Tarea"
